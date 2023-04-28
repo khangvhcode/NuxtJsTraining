@@ -12,13 +12,30 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' },
+    ],
+    script: [
+      { src: 'https://kit.fontawesome.com/42d5adcbca.js' },
+      { src: 'https://maps.googleapis.com/maps/api/js?key=AIzaSyDTTfWur0PDbZWPr7Pmq8K3jiDp0_xUziI' },
+
     ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    '@assets/css/nucleo-icons.css',
+    '@assets/css/nucleo-svg.css',
+    '@assets/css/soft-design-system.css',
+    '@assets/css/soft-design-system.min.css',
   ],
+
+  styleResources: {
+    scss: [
+      '/assets/scss/soft-design-system.scss',
+      '/assets/scss/**/**'
+    ]
+  },
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [

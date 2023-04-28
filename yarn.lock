@@ -8797,6 +8797,11 @@ snapdragon@^0.8.1:
     source-map-resolve "^0.5.0"
     use "^3.1.0"
 
+soft-ui-library@^1.0.9:
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/soft-ui-library/-/soft-ui-library-1.0.9.tgz#f01cc41406ef887fc66aac667331629b6d410d3a"
+  integrity sha512-lsXjtYQeckDUXFETkflGepc7dnzEyuN24VstyzYyVNSzS4BQ2m1Oee67Z4EnnyODrtzUpM5IoBGPkaeLN2v/QA==
+
 sort-keys@^1.0.0:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/sort-keys/-/sort-keys-1.1.2.tgz#441b6d4d346798f1b4e49e8920adfba0e543f9ad"
